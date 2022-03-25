@@ -1,0 +1,10 @@
+#import rpdb2
+#rpdb2.start_embedded_debugger("test")
+import FreeCAD
+import Part
+import Draft
+from FreeCAD import Base
+
+circ1= Part.makeCircle(
+	5,
+	FreeCAD.Vector(10,18,10), FreeCAD.Vector(1,0,0))
